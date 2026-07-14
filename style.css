@@ -1155,3 +1155,78 @@ opacity:0;
 }
 
 }
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding:120px 20px 60px;
+}
+
+.hero-left,
+.hero-right{
+    width:100%;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero-text{
+    font-size:16px;
+}
+
+.profile-card img{
+    width:260px;
+}
+
+.hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.about-container,
+.services-grid,
+.portfolio-grid,
+.stats{
+
+    grid-template-columns:1fr !important;
+
+}
+
+.portfolio-card{
+
+    max-width:360px;
+    margin:auto;
+
+}
+
+.stat{
+
+    margin-bottom:20px;
+
+}
+
+#contact form{
+
+    width:100%;
+    padding:20px;
+
+}
+
+.primary,
+.secondary{
+
+    width:100%;
+
+}
+
+nav ul{
+
+    width:100%;
+
+}
+
+}
